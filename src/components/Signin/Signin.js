@@ -38,6 +38,10 @@ class Signin extends React.Component {
   render() {
     const { onRouteChange } = this.props;
     return (
+      <div>
+       <h1 className='f3 grow f4 shadow-5 '>
+        {`Welcome to Joshi's facial Recognition application`}
+      </h1>
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
@@ -78,6 +82,7 @@ class Signin extends React.Component {
           </div>
         </main>
       </article>
+      </div>
     );
   }
 }
